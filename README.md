@@ -4,7 +4,7 @@ Cohort model for go-to-market analytics. It builds monthly acquisition cohorts, 
 
 ---
 
-## Quickstart (one command)
+## Quickstart
 
 ```bash
 # 1) Create and activate a virtual environment
