@@ -1,6 +1,6 @@
 -- =========================================================
 -- GTM Cohort CAC/LTV — DuckDB SQL snapshot
--- These are the core queries executed by src/cohort_cli.py
+-- These are the core queries executed by src/cohort_cli.py :))
 -- =========================================================
 
 -- 1) Clean fact table from registered 'orders' (pandas DataFrame)
