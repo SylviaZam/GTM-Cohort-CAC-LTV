@@ -12,6 +12,8 @@ python3 -m venv .venv && source .venv/bin/activate
 
 # 2) Install dependencies
 pip install -r requirements.txt
+pip install pytest
+pytest -q
 # (or) pip install duckdb pandas numpy matplotlib xlsxwriter openpyxl
 
 # 3) Generate Excel + PNG from the sample CSVs
