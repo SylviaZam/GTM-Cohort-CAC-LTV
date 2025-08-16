@@ -41,6 +41,33 @@ Turn raw transactions and marketing spend into a decision-ready view of unit eco
 
 ---
 
+## Situational context
+
+You are advising a mid-market e-commerce retailer that invested across paid search, paid social, affiliate, email, and organic during early 2023. The leadership team wants a quick, reproducible view of unit economics by cohort month in order to plan next-quarter spend.
+
+**Business question**
+- Are newly acquired cohorts paying back in a healthy timeframe, and is LTV:CAC trending up or down across months?
+
+**What the sample represents**
+- `orders_sample.csv`: synthetic order history where the first purchase defines the customer’s cohort month.
+- `marketing_spend.csv`: synthetic monthly media spend by channel for the same period.
+
+**How to read the output**
+- LTV_cumulative shows value per cohort accumulating by month since first purchase.
+- Summary lists the latest LTV alongside CAC for each cohort, plus the LTV:CAC ratio.
+
+**Decisions this enables**
+- Scale or pause acquisition by month based on LTV:CAC and time-to-breakeven.
+- Investigate cohorts with weak payback to check promo mix, funnel quality, or retention mechanics.
+- Set targets for next tests, for example “raise month-2 LTV by +10 percent.”
+
+**Assumptions and scope**
+- CAC is computed as total spend in the cohort month divided by new customers that month (channel attribution can be added later).
+- LTV uses revenue, not margin (a margin column can be added to shift to contribution LTV and explicit payback months).
+- Data is synthetic for demonstration and runs fast on a laptop.
+
+--- 
+
 ## Inputs and sample data (included)
 
 Small, self-contained CSVs so anyone can run the project:
