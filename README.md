@@ -43,7 +43,7 @@ Turn raw transactions and marketing spend into a decision-ready view of unit eco
 
 ## Situational context
 
-You are advising a mid-market e-commerce retailer that invested across paid search, paid social, affiliate, email, and organic during early 2023. The leadership team wants a quick, reproducible view of unit economics by cohort month in order to plan next-quarter spend.
+**Hypothetically** advising a mid-market e-commerce retailer that invested across paid search, paid social, affiliate, email, and organic during early 2023. The leadership team wants a quick, reproducible view of unit economics by cohort month in order to plan next-quarter spend.
 
 **Business question**
 - Are newly acquired cohorts paying back in a healthy timeframe, and is LTV:CAC trending up or down across months?
