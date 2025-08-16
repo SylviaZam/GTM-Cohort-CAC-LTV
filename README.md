@@ -1,4 +1,4 @@
-# GTM-Cohort-CAC-LTV
+# GTM Cohort CAC LTV
 
 Cohort model for go-to-market analytics. It builds monthly acquisition cohorts, computes cumulative **LTV**, **CAC**, and **LTV:CAC**, and exports a stakeholder-ready Excel workbook plus a preview chart.
 
