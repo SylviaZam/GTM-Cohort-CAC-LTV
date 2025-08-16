@@ -136,12 +136,14 @@ def export_png(summary: pd.DataFrame, out_png: Path):
     plt.savefig(out_png, dpi=160)
     plt.close()
 
+VERSION = "0.1.0"
 
 def main():
     ap = argparse.ArgumentParser(description="Build CAC/LTV cohorts from orders + spend CSVs.")
     ap.add_argument("--orders", required=True, help="Path to orders CSV (order_id, order_date, customer_id, channel, revenue).")
     ap.add_argument("--spend", required=True, help="Path to spend CSV (month YYYY-MM, channel, spend).")
     ap.add_argument("--out", default="reports/cac_ltv_cohorts.xlsx", help="Output Excel path.")
+    ap.add_argument("--version", action="version", version=f"%(prog)s {VERSION}")
     args = ap.parse_args()
 
     orders, spend = load_inputs(Path(args.orders), Path(args.spend))
