@@ -28,6 +28,7 @@ python -m src.cohort_cli --orders data/orders_sample.csv --spend data/marketing_
 
 ![LTV vs CAC](assets/ltv_vs_cac.png)
 
+- [Summary from SQL (CSV)](reports/summary_from_sql.csv)
 ---
 
 ## What this repo is for
