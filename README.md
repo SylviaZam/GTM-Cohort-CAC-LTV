@@ -21,9 +21,10 @@ python -m src.cohort_cli --orders data/orders_sample.csv --spend data/marketing_
 
 ## Artifacts created:
 
-reports/cac_ltv_cohorts.xlsx (sheets: LTV_cumulative, Summary)
+- [Download the Excel workbook](reports/cac_ltv_cohorts.xlsx)
+- Preview chart:
 
-assets/ltv_vs_cac.png
+![LTV vs CAC](assets/ltv_vs_cac.png)
 
 ---
 
