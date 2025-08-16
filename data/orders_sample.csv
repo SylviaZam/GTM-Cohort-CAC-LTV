@@ -1,0 +1,11 @@
+order_id,order_date,customer_id,channel,revenue
+1001,2023-01-15,C001,paid_search,59.99
+1002,2023-01-18,C002,organic,39.00
+1003,2023-02-03,C003,paid_social,89.00
+1004,2023-02-17,C001,paid_search,19.00
+1005,2023-03-02,C004,email,120.00
+1006,2023-03-21,C005,affiliate,45.00
+1007,2023-04-01,C006,paid_search,60.00
+1008,2023-04-11,C002,organic,20.00
+1009,2023-04-20,C007,paid_social,75.00
+1010,2023-05-05,C008,paid_search,140.00
