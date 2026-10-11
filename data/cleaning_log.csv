@@ -1,0 +1,7 @@
+step,lines_kept
+raw lines,1067371
+remove exact duplicates,1033036
+remove guest checkouts (no customer ID),797885
+"remove fees, adjustments, tests, vouchers",796667
+remove zero/negative prices on sales,796606
+invoices after grouping lines,44254
